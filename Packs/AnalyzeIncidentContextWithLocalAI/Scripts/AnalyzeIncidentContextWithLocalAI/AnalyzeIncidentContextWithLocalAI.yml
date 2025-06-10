@@ -55,7 +55,8 @@ outputs:
 - contextPath: readable_output
 runas: DBotWeakRole
 runonce: true
-script: ''
+script:
+dockerimage: demisto/aidockerimage:1.0.0.12345
 scripttarget: 0
 subtype: python3
 tags: []
